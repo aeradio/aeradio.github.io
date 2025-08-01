@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>aeradio – New Maintenance Page, Discord Server and More!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Workbench&family=Jersey+10&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      color: #ffffff;
+      font-family: 'Special Gothic Condensed One', sans-serif;
+      padding: 2rem;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      letter-spacing: 0.03em;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+    }
+    h1, h2 {
+      font-family: 'Workbench', monospace;
+      color: #00ff00;
+      letter-spacing: 0.05em;
+      font-weight: normal;
+    }
+    a {
+      color: #00ff00;
+      text-decoration: underline;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>New Maintenance Page, Discord Server and More!</h1>
+    <p><em>Published August 1st, 2025</em></p>
+
+    <p>HELLO FOLKS!</p>
+
+    <p>We’ve been hard at work improving your experience overall using the aeradio website. We’ve made a new maintenance page that you will see, so you’ll no longer have to DM and ask me about it.</p>
+
+    <p>Here’s what that looks like:</p>
+    <img src="https://assets.buttondown.email/images/40e75d91-7715-48d1-b6af-0ab086f0e711.png?w=960&fit=max" alt="a maintenance page for aeradio that reads 'We're currently doing some upgrades to improve your experience. Come back shortly - we'll be back online soon!'" />
+
+    <p>For now though, we’ve managed to stay up and running nicely, and we’ve now got around <strong>19 artists on the site (around 3/4GB of music)</strong>.</p>
+
+    <p>This is massive for us, we never expected to get so much loyal support from everyone, but trust we really do appreciate it.</p>
+
+    <p>Along with the shutdown page, we’re also introducing a new Discord server. This server tells you about new songs that have <strong><em>JUST FRESHLY</em></strong> been put onto the database (which means they won’t immediately be playable, but it lets you know we have the song).</p>
+
+    <p>The Discord server also tells you every time the site has gone down, and we will announce updates to our Privacy Policy, Terms of Service and For Artists documents over there, along with this newsletter.</p>
+
+    <p>If you’d like to join, we’d be so happy to have you! Just go to the following link: <a href="https://discord.gg/wJyM22a8vb" target="_blank">discord.gg/wJyM22a8vb</a></p>
+
+    <p>Artists there will also get exclusive channels to chat with each other, share their stuff, and get feedback on new songs/demos.</p>
+
+    <p>Artists can also get their artist/band/project’s logo added to the server by giving us a pound <a href="https://ko-fi.com/s/d3d4dceabf" target="_blank">here</a>. We know having to pay for it seems a little weird, but it's a way to help us get the funding we need. (Also, if you pay more than a pound, you can send multiple emojis over. For example, if you end up paying £3 at once, then we’ll let you have 3 emojis unless you choose not to.)</p>
+
+    <p>We’re also gonna offer this with stickers soon — £2 per sticker (due to the small number of slots). You can also just <a href="https://ko-fi.com/aeradio" target="_blank">donate to us on Ko-Fi</a>; if you <strong>donate anything from £1 up to £10</strong>, you’ll get the <strong>“supporter”</strong> role, but <strong>anything above</strong> that will get you the <strong>"sponsor”</strong> role in our Discord server.</p>
+
+    <p>Anyway, thank you all, have a great day x<br><strong>Jude Kerr</strong>, signing off <a href="https://buttondown.com/aeradio" target="_blank">aeradio newsletter</a></p><br>
+
+    <p style="text-align: center; margin-top: 3rem;"><a href="https://buttondown.com/aeradio" target="_blank" style="color: #00ff00; text-decoration: none; font-weight: bold;">Subscribe for future emails.</a></p>
+  </div>
+<script>
+  const postDate = new Date('2025-08-01');
+  const now = new Date();
+  const twoWeeks = 1000 * 60 * 60 * 24 * 14;
+
+  if (now - postDate > twoWeeks) {
+    const warning = document.createElement('div');
+    warning.textContent = "(i) If You're Here Beware! This is an older article, some things may have changed since then.";
+    warning.style.backgroundColor = '#111';
+    warning.style.border = '1px solid #00ff00';
+    warning.style.color = '#00ff00';
+    warning.style.padding = '1rem';
+    warning.style.marginBottom = '2rem';
+    warning.style.fontSize = '1.1rem';
+    warning.style.fontFamily = 'Jersey 10, sans-serif';
+    document.querySelector('.container').insertBefore(warning, document.querySelector('.container').firstChild);
+  }
+</script>
+  </body>
+</html>
