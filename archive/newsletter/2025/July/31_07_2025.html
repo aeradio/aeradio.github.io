@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>aeradio – Temporary Downtime</title>
+  <link href="https://fonts.googleapis.com/css2?family=Workbench&family=Jersey+10&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      color: #ffffff;
+      font-family: 'Special Gothic Condensed One', sans-serif;
+      padding: 2rem;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      letter-spacing: 0.03em;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+    }
+    h1, h2 {
+      font-family: 'Workbench', monospace;
+      color: #00ff00;
+      letter-spacing: 0.05em;
+      font-weight: normal;
+    }
+    a {
+      color: #00ff00;
+      text-decoration: underline;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Temporary Downtime</h1>
+    <p><em>Emailed: July 31, 2025</em></p>
+
+    <p>Hey all!</p>
+    <p>Aethy ran into problems with the website, so for now, the website will be <strong>down</strong> for <strong>maintenance for a short while</strong>.</p>
+
+    <p>I estimate that we’ll have this fixed in a few days, maybe even tonight if we’re lucky, but yeah, we don’t want to create too much stress for ourselves, so we're gonna wait and take breaks, especially since I think Aethy was stressing herself too much on trying to fix the problems.</p>
+
+    <p>But yeah, we will be back very shortly!<br>
+    In the meantime, you can support us on <a href="https://ko-fi.com/aeradio?utm_source=aeradio&amp;utm_medium=email&amp;utm_campaign=temporary-downtime" target="_blank"><strong>Ko-Fi</strong></a>.</p>
+
+    <p>For any inquiries about the downtime, please email me at: <a href="mailto:acesx1803@gmail.com">acesx1803@gmail.com</a> or on Discord.</p>
+
+    <p>(P.S. Should we make a Bluesky account? vote <a href="https://ko-fi.com/polls/Should-we-make-a-Bluesky-account-V7V11IWSA5?utm_source=aeradio&amp;utm_medium=email&amp;utm_campaign=temporary-downtime" target="_blank">here</a>.)</p>
+
+    <p>Cheers and have a brilliant morning (or night) x<br><strong>Jude Kerr</strong></p>
+
+    <p style="text-align: center; margin-top: 3rem;"><a href="https://buttondown.com/aeradio" target="_blank" style="color: #00ff00; text-decoration: none; font-weight: bold;">Subscribe for future emails.</a></p>
+  </div>
+
+  <script>
+    const postDate = new Date('2025-07-31');
+    const now = new Date();
+    const twoWeeks = 1000 * 60 * 60 * 24 * 14;
+
+    if (now - postDate > twoWeeks) {
+      const warning = document.createElement('div');
+      warning.textContent = "(i) If You're Here Beware! This is an older article, some things may have changed since then.";
+      warning.style.backgroundColor = '#111';
+      warning.style.border = '1px solid #00ff00';
+      warning.style.color = '#00ff00';
+      warning.style.padding = '1rem';
+      warning.style.marginBottom = '2rem';
+      warning.style.fontSize = '1.1rem';
+      warning.style.fontFamily = 'Jersey 10, sans-serif';
+      document.querySelector('.container').insertBefore(warning, document.querySelector('.container').firstChild);
+    }
+  </script>
+</body>
+</html>
